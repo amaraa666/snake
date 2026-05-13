@@ -31,6 +31,7 @@ public class snake implements ActionListener , KeyListener {
 		mySnake.myFruitX = mySnake.randomX;
 		mySnake.myFruitY = mySnake.randomY;
 	        frame.setSize(500, 500);
+	        frame.setLocationRelativeTo(null);
 			myLabel.setBounds(10, 5, 100, 30);
 			myBtn.setFocusable(false);
 			myStartBtn.setFocusable(false);
